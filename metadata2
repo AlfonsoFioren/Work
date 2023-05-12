@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://satosa.cloud.sbn.it/spidSaml2/metadata" ID="id-fRIEPWgYj3xuR8Q1V">
+	<ds:Signature Id="Signature1">
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#id-fRIEPWgYj3xuR8Q1V">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>OZUcituhRGpKDPXT/y6VsBjJJRhY5uMlpLWbG6poxtw=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>xqrpUICrmu/t9UHPoUZWji3gZtDbvPO4m1DbwTM5fmlcdBoYTVHTg7iW0uKC6c02
+nzd85Epg6GsrNofmrhQycj35cmwacjsf+cn9cPDhow392U49MZCrIzot2xV1QwPQ
+NttilbqBioWtF4awiQuUc/84DOu4zIMrgtz4ljgufGqs50FjJzp9FeqaCrYnjGug
+9k3KdvSxV3s6OpIS2cZvfkrquaSJXjbhJwAdgUDMUoDMDQ3UCbbT00jBB+XEfDto
+ysXbhK+ZHudsf5fW7uQDH54vhM53nW0C7n+o+bH4zwsUZ8KX61rTSsNyDtXBSBk5
+IQDfmrew5mcAxmysOK+nypHTyNNgNV4h0tXDrCm/+MNMakXcnrWsCzzFccnRZRTK
+9PV/l3OAFQj4t0kReztmaldq3+4vl9DkphuVLOWk5dB5hfYurfuHx+/EGQFmwAYB
+l/btpn+t9I4S9r/+GDYz7Tc5Jc1jzzUqQRtN/ytIP7MAEUA0GGXJJaCdFjUC2Y7+</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+		<md:Extensions>
+			<idpdisc:DiscoveryResponse Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://satosa.cloud.sbn.it/spidSaml2/disco" index="1"/>
+			<mdui:UIInfo>
+				<mdui:DisplayName xml:lang="en">ICAR</mdui:DisplayName>
+				<mdui:DisplayName xml:lang="it">ICAR</mdui:DisplayName>
+				<mdui:Description xml:lang="en">Istituto Centrale per gli Archivi</mdui:Description>
+				<mdui:Description xml:lang="it"/>
+				<mdui:Keywords xml:lang="it">SPID Authentication Proxy SPID Service Provider IT</mdui:Keywords>
+				<mdui:Keywords xml:lang="en">SPID Authentication Proxy SPID Service Provider EN</mdui:Keywords>
+				<mdui:Logo/>
+				<mdui:InformationURL xml:lang="en">https://icar.cultura.gov.it</mdui:InformationURL>
+				<mdui:InformationURL xml:lang="it">https://icar.cultura.gov.it</mdui:InformationURL>
+				<mdui:PrivacyStatementURL xml:lang="en">https://icar.cultura.gov.it/informativa-privacy</mdui:PrivacyStatementURL>
+				<mdui:PrivacyStatementURL xml:lang="it">https://icar.cultura.gov.it/informativa-privacy</mdui:PrivacyStatementURL>
+			</mdui:UIInfo>
+		</md:Extensions>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/ls/post/"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/acs/99/post" index="99" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/acs/100/post" index="100"/>
+
+		<md:AttributeConsumingService index="99">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" isRequired="true"/>
+			<md:RequestedAttribute Name="name" isRequired="true"/>
+			<md:RequestedAttribute Name="familyName" isRequired="true"/>
+			<md:RequestedAttribute Name="dateOfBirth" isRequired="true"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="100">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" isRequired="true"/>
+			<md:RequestedAttribute Name="name" isRequired="true"/>
+			<md:RequestedAttribute Name="familyName" isRequired="true"/>
+			<md:RequestedAttribute Name="dateOfBirth" isRequired="true"/>
+			<md:RequestedAttribute Name="placeOfBirth" isRequired="true"/>
+			<md:RequestedAttribute Name="address" isRequired="true"/>
+			<md:RequestedAttribute Name="gender" isRequired="true"/>
+		</md:AttributeConsumingService>
+		
+		
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="en">ICAR</md:OrganizationName>
+		<md:OrganizationName xml:lang="it">ICAR</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="en">Istituto Centrale Archivi</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="it">Istituto Centrale Archivi</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="en">https://icar.cultura.gov.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="it">https://icar.cultura.gov.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:given_name>Massimiliano Mosca</spid:given_name>
+			<spid:FiscalCode>GBPMMF74R49H637U</spid:FiscalCode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:EmailAddress>M.Mosca@almaviva.it</md:EmailAddress>
+		<md:TelephoneNumber>390500987316</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>
