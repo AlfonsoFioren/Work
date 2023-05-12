@@ -60,7 +60,7 @@ l/btpn+t9I4S9r/+GDYz7Tc5Jc1jzzUqQRtN/ytIP7MAEUA0GGXJJaCdFjUC2Y7+</ds:SignatureVa
 		</md:KeyDescriptor>
 		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/ls/post/"/>
 		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/acs/99/post" index="99" isDefault="true"/>
+		<md:AssertionConsumerService index="0" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/acs/99/post" index="99" isDefault="true"/>
 		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa.cloud.sbn.it/spidSaml2/acs/100/post" index="100"/>
 
 		<md:AttributeConsumingService index="99">
